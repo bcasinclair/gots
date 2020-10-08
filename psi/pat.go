@@ -28,8 +28,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/Comcast/gots"
-	"github.com/Comcast/gots/packet"
+	"github.com/bcasinclair/gots"
+	"github.com/bcasinclair/gots/packet"
 )
 
 const (
@@ -153,4 +153,8 @@ func ReadPAT(r io.Reader) (PAT, error) {
 		}
 	}
 	return nil, gots.ErrPATNotFound
+}
+
+func (pat pat) GetBytes() []byte {
+	return pat
 }

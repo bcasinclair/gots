@@ -28,7 +28,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/Comcast/gots"
+	"github.com/bcasinclair/gots"
 )
 
 // Peeker wraps the Peek method.

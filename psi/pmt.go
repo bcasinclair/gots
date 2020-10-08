@@ -30,8 +30,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Comcast/gots"
-	"github.com/Comcast/gots/packet"
+	"github.com/bcasinclair/gots"
+	"github.com/bcasinclair/gots/packet"
 )
 
 const (

@@ -28,7 +28,7 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/Comcast/gots"
+	"github.com/bcasinclair/gots"
 )
 
 // EBP tags
